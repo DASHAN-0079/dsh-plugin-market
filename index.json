@@ -1,0 +1,147 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DASHAN-0079 plugins",
+    "zh-hans": "DASHAN-0079 插件集"
+  },
+  "description": {
+    "en": "Community DeepSeek Harness plugins maintained by DASHAN-0079: PPT Master (presentation skill bundle) and Superagent (GitHub request orchestrator).",
+    "zh-hans": "由 DASHAN-0079 维护的 DeepSeek Harness 社区插件：PPT Master（演示文稿技能包）与 Superagent（GitHub 工单编排器）。"
+  },
+  "metadata": {
+    "categories": {
+      "productivity": {
+        "title": {
+          "en": "Productivity",
+          "zh-hans": "效率"
+        }
+      }
+    },
+    "labels": {
+      "office": {
+        "title": {
+          "en": "Office",
+          "zh-hans": "办公"
+        }
+      },
+      "sessions": {
+        "title": {
+          "en": "Sessions",
+          "zh-hans": "会话"
+        }
+      }
+    },
+    "sortKeys": {
+      "featured": {
+        "title": {
+          "en": "Featured",
+          "zh-hans": "精选"
+        },
+        "order": "asc"
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-superagent",
+      "title": {
+        "en": "Superagent",
+        "zh-hans": "Superagent"
+      },
+      "description": {
+        "en": "Watch one GitHub repository, turn authorized requests into Tickets, and execute each in its own DeepSeek Harness Session.",
+        "zh-hans": "盯住一个 GitHub 仓库，把获得授权的请求变成工单，并在各自独立的 DeepSeek Harness 会话中执行。"
+      },
+      "author": "DASHAN-0079",
+      "homepage": "https://github.com/DASHAN-0079/dsh-superagent-adapt",
+      "repository": {
+        "url": "https://github.com/DASHAN-0079/dsh-superagent-adapt"
+      },
+      "icon": "https://raw.githubusercontent.com/DASHAN-0079/dsh-superagent-adapt/ca8a271065c4be72489affc835d17dc644721e64/icon.svg",
+      "metadata": {
+        "category": "productivity",
+        "labels": [
+          "sessions"
+        ],
+        "keywords": [
+          "github",
+          "orchestrator",
+          "sessions",
+          "tickets",
+          "superagent"
+        ],
+        "sortKeys": {
+          "featured": 1
+        }
+      },
+      "dist-tags": {
+        "latest": "0.1.1"
+      },
+      "versions": [
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1794967500,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/DASHAN-0079/dsh-superagent-adapt",
+            "commit": "ca8a271065c4be72489affc835d17dc644721e64"
+          },
+          "engines": {
+            "dsh": "^0.2.2-rc.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-ppt-master",
+      "title": {
+        "en": "PPT Master",
+        "zh-hans": "PPT Master 演示文稿"
+      },
+      "description": {
+        "en": "Generate and edit PowerPoint decks from Markdown templates inside a DeepSeek Harness Session (bundles the ppt-master skill payload).",
+        "zh-hans": "在 DeepSeek Harness 会话中基于 Markdown 模板生成与编辑 PowerPoint 演示文稿（内置 ppt-master 技能负载）。"
+      },
+      "author": "DASHAN-0079",
+      "homepage": "https://github.com/DASHAN-0079/dsh-ppt-master",
+      "repository": {
+        "url": "https://github.com/DASHAN-0079/dsh-ppt-master"
+      },
+      "icon": "https://raw.githubusercontent.com/DASHAN-0079/dsh-ppt-master/dee871bbb0a81d60a1b02e45fd67fa9081eccc50/icon.svg",
+      "metadata": {
+        "category": "productivity",
+        "labels": [
+          "office"
+        ],
+        "keywords": [
+          "pptx",
+          "powerpoint",
+          "slides",
+          "deck",
+          "office",
+          "presentation"
+        ],
+        "sortKeys": {
+          "featured": 2
+        }
+      },
+      "dist-tags": {
+        "latest": "6.8.0-dsh.2"
+      },
+      "versions": [
+        {
+          "version": "6.8.0-dsh.2",
+          "publishTimestamp": 1794878520,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/DASHAN-0079/dsh-ppt-master",
+            "commit": "dee871bbb0a81d60a1b02e45fd67fa9081eccc50"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.3.0"
+          }
+        }
+      ]
+    }
+  ]
+}
