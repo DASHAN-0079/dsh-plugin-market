@@ -107,7 +107,7 @@
       "repository": {
         "url": "https://github.com/DASHAN-0079/dsh-ppt-master"
       },
-      "icon": "https://raw.githubusercontent.com/DASHAN-0079/dsh-ppt-master/dee871bbb0a81d60a1b02e45fd67fa9081eccc50/icon.svg",
+      "icon": "https://raw.githubusercontent.com/DASHAN-0079/dsh-ppt-master/130439f477f7173c97aa594aaece890240943f65/icon.svg",
       "metadata": {
         "category": "productivity",
         "labels": [
@@ -131,11 +131,11 @@
       "versions": [
         {
           "version": "6.8.0-dsh.2",
-          "publishTimestamp": 1794878520,
+          "publishTimestamp": 1794969300,
           "source": {
             "type": "git",
             "url": "https://github.com/DASHAN-0079/dsh-ppt-master",
-            "commit": "dee871bbb0a81d60a1b02e45fd67fa9081eccc50"
+            "commit": "130439f477f7173c97aa594aaece890240943f65"
           },
           "engines": {
             "dsh": ">=0.2.0-rc.2 <0.3.0"
