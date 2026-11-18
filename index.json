@@ -57,7 +57,7 @@
       "repository": {
         "url": "https://github.com/DASHAN-0079/dsh-superagent-adapt"
       },
-      "icon": "https://raw.githubusercontent.com/DASHAN-0079/dsh-superagent-adapt/ca8a271065c4be72489affc835d17dc644721e64/icon.svg",
+      "icon": "https://raw.githubusercontent.com/DASHAN-0079/dsh-superagent-adapt/d236a92b7000892364eb8278dfd07a5c4b777bf0/icon.svg",
       "metadata": {
         "category": "productivity",
         "labels": [
@@ -80,11 +80,11 @@
       "versions": [
         {
           "version": "0.1.1",
-          "publishTimestamp": 1794967500,
+          "publishTimestamp": 1794970500,
           "source": {
             "type": "git",
             "url": "https://github.com/DASHAN-0079/dsh-superagent-adapt",
-            "commit": "ca8a271065c4be72489affc835d17dc644721e64"
+            "commit": "d236a92b7000892364eb8278dfd07a5c4b777bf0"
           },
           "engines": {
             "dsh": "^0.2.2-rc.3"
